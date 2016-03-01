@@ -1,23 +1,20 @@
 {
   "development": {
-    "username": null,
-    "password": null,
-    "database": "chinook",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "sqlite",
+    "storage": "./db.development.sqlite"
   },
   "test": {
-    "username": null,
+    "username": "root",
     "password": null,
-    "database": "chinook",
+    "database": "database_test",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "production": {
-    "username": null,
+    "username": "root",
     "password": null,
-    "database": "chinook",
+    "database": "database_production",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   }
 }
